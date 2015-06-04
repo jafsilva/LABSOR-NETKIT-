@@ -1,0 +1,5 @@
+#servidor[type]=generic
+#servidor[0]=link:ip=10.0.0.1/24
+#servidor[dhcp]=eth0:range=10.0.0.10,10.0.0.20:default-lease=7200:gateway=10.0.0.254
+
+ifconfig eth0 10.0.0.1/24
